@@ -1,0 +1,29 @@
+:root{
+    --roxo-principal: #CB3EF5;
+    --preto: #000000;
+    --azul-principal: #4759FA;
+    --branco: #FFFF;
+    --roxo-claro: #D874F7;
+    --azul-borda: #ADD8E6;
+    --roxo-escuro: #8A00E0;
+}
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+    background-color: var(--preto);
+    display: flex;
+}
+.conteiner{
+    margin: auto;
+    display: flex;
+}
+.logo{
+    width: 35vh;
+    height: 35vh;
+    border-radius: 50vh;
+    background-color: var(--roxo-principal);
+    margin: auto;
+}
